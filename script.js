@@ -3,15 +3,15 @@ var barChartData = {
     datasets: [{
         label: 'Employer: K 73,500',
         backgroundColor: "rgb(64, 66, 199)",
-        data:[5,9,13,19,23,28,35,39,44,48]
+        data:[20,25,35,40,45,55,65,75,90,95]
     }, {
         label: 'Employer: K 52,500',
         backgroundColor: "rgb(128, 156, 233)",
-        data:[15,19,23,29,33,38,45,49,54,58]
+        data:[20,25,35,40,45,55,65,75,90,95]
     }, {
         label: 'Employer: K 244,313',
         backgroundColor: "rgb(169, 187, 236)",
-        data:[25,29,33,39,43,48,55,59,64,69]
+        data:[35,40,60,65,65,80,85,95,110,140]
     }]
 
 };
@@ -39,7 +39,8 @@ window.onload = function() {
                     stacked: true,
                     ticks: {
                         min: 0,
-                        stepSize: '50',
+                        stepSize: '100',
+                        max: 300
                     }
                 }]
             },
